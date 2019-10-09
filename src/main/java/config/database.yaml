@@ -1,0 +1,13 @@
+RDS_DB_NAME : blackjack
+RDS_REGION : us-east-2a
+RDS_HOSTNAME : db-blackjack.cqnarrenedvq.us-east-2.rds.amazonaws.com
+RDS_PORT : 5432
+RDS_USERNAME : postgres
+RDS_PASSWORD : database
+
+DB_STARTER : jdbc:postgresql://
+#These are included for the sake of connecting to the aws database designed for this application
+aws_access_key_id : AKIA5RJRHPH2QRW2WAVB
+aws_secret_access_key : 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
+
+pem_auth : rds-ca-2019-us-east-2.pem

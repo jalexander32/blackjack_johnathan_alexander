@@ -1,0 +1,7 @@
+multipliers:
+  blackjack : 2.0
+  win		  : 1.5
+  tie		  : 1.0
+  loss	  : 0.0
+bank:
+  default_balance : 1000

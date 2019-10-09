@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<link rel = "stylesheet" href = "blackjackGameUI/stylesheets/main.css" />
+		<script src="https://unpkg.com/mithril/mithril.js"></script>
+		<script type = "text/javascript" src = "blackjackGameUI/scripts/Card.js"></script>
+		<script type = "text/javascript" src = "blackjackGameUI/scripts/main.js"></script>
+		
+	</head>
+	<body>
+		<div id = "game">
+			<div id = "headerSection">
+				<ul>
+					<li style = "list-style-type: none;">
+						<div id = "titleSubSection">
+							<h1>Blackjack</h1>
+						</div>
+					</li>
+					<li style = "list-style-type: none;">
+						<p id = "registerButton">Register</p>
+					</li>
+					<li style = "list-style-type: none;">
+						<button type = "login">Login</button>
+					</li>
+					
+				</ul>
+				
+				<!--<ul>
+					<li class = "controls">
+						<div id = "titleSubSection">
+							<h1 style = "text-align: left;">Blackjack</h1>
+						</div>
+					</li>
+					<li class = "controls">
+						<div id = "loginSubSection">
+							<ul>
+								<li class = "controls">
+									<p id = "registerButton">Register</p>
+								</li>
+								<li class = "controls">
+									<button type = "login">Login</button>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>-->
+			</div>
+			<div id = "gameSection">
+				<div id = "dealerSection" class = "section">
+					<div class = "left-side scoreBoard" id = "dealerScoreBoard">
+						<h2 class = "scoreHeader">Dealer Score</h2>
+						<div class = "scoreBody">
+							<p>Win :
+								<input type = "text" disabled style = "width: 60%;"/>
+							</p>
+							<p>Loss:
+								<input type = "text" disabled style = "width: 60%;"/>
+							</p>
+						</div>
+						
+					</div>
+					<div class = "cards" id = "dealerCards"></div>
+				</div>
+				<div id = "playerSection" class = "section">
+					<div class = "left-side scoreBoard">
+						<h2 class = "scoreHeader">Player Score</h2>
+						<div class = "scoreBody">
+							<p>Win :
+								<input type = "text" disabled style = "width: 60%;"/>
+							</p>
+							<p>Loss:
+								<input type = "text" disabled style = "width: 60%;"/>
+							</p>
+							<div id = "accountSection">
+								<h3 class = "scoreHeader" style = "text-decoration: underline;" >Account Details</h3>
+								<p>Balance:
+									<input style = "width: 45%;" type = "text" value = "$" disabled />
+								</p>
+								<p>Wager:
+									<input style = "width: 45%;" type = "text" disabled />
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "cards" id = "playerCards"></div>
+				</div>
+			</div>
+			<div id = "playerControls">
+				<div id = "buttonGroup">
+					<ul>
+						<li class = "controls"><button class = "button">HIT</button></li>
+						<li class = "controls"><button class = "button">STAND</button></li>
+						
+					</ul>
+					
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>

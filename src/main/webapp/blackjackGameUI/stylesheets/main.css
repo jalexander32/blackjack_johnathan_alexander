@@ -1,0 +1,116 @@
+#hitButton{
+	
+}
+#standButton{
+	
+}
+#game{
+	border: 2px solid black;
+}
+#playerSection, #dealerSection{
+	height: 33%;
+}
+#headerSection{
+	height: 5%;
+}
+#titleSubSection{
+	text-align: left;
+}
+#loginSubSection{
+	float: right;
+	padding-right: .25%;
+}
+#balanceDisplay, #wagerGroup{
+	float: right;
+}
+#buttonGroup{
+	width: 75%;
+}
+#registerButton{
+	font-size: 12px;
+	text-decoration: underline;
+}
+#gameSection{
+	background-color: green;
+}
+#buttonGroup, .scoreBoard{
+	border: 1px solid gray;
+}
+.button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 12px;
+}
+.section{
+	border: 1px solid gray;
+}
+.button:hover {
+	color: black;
+}
+.cards{
+	height: 200px;
+}
+.controls{
+	list-style-type: none;
+	display: inline-block;
+}
+.left-side{
+	float: left;
+}
+.scoreBoard{
+	width: 15%;
+	height: 100%;
+	background-color: white !important;
+	border-right: 3px solid black;
+}
+.scoreHeader{
+	text-decoration: underline;
+	text-align: center;
+}
+.scoreBody{
+	padding-left: 5px;
+}
+.card
+{
+	padding: 10px;
+	border: solid 1px #808080;
+	background-color: white;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 14pt;
+	text-align: center;
+	color:black;
+	margin: 3px;
+}
+.card .value{
+	font-size:15pt;
+	font-family: sans-serif;
+}
+.card .suit
+{
+	background-image: url('card.png');
+	height: 100px;
+	width: 90px;
+}
+.card .diamonds
+{
+	background-position-y: 100px;
+}
+
+.card .hearts
+{
+	background-position-x: 90px;
+}
+
+.card .clubs
+{
+	background-position-x:90px;
+	background-position-y:100px;
+}
