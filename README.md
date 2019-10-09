@@ -10,8 +10,7 @@ Regarding our interview, I added a configuration file for implementing Spring be
 currently in the file being used but I added an example using the Player class.  This is in the servletConfig/RootApplicationContextConfig.java file.
 
 The blackjack game is not where I would like for it to be.  Unfortunately, I had to spend a chunk of time on college assignments for my two courses.
-That took a good amount of time as I am in a project management course that takes up more time that I'd like as well as a Javascript course.  That being said, I was able to
-implement a lot of code in about 4 - 4.5 days.  Please consider that in your review and imagine what I could have done in a typical sprint on this project.
+That took a good amount of time as I am in a project management course that takes up more time that I'd like as well as a Javascript course.  There are still a few bugs that I have not had time to work out.  That being said, I was able to implement a lot of code in about 4 - 4.5 days.  Please consider that in your review and imagine what I could have done in a typical sprint on this project.
 
 This next block describes some of the features I included in the application.
 
