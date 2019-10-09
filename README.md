@@ -2,8 +2,9 @@ README:
 Please note that the project has a javadoc generated for your convenience in the ~/doc directory.
 
 The following are some of the technologies or features added to this application in some form (whether used at the end or not):
-	Spring; HTML/CSS; JavaScript; Mithril; Spring Boot; Java; Multithreading; AWS RDS; JUnit; Maven;
-	
+	Spring; HTML/CSS; JavaScript; Mithril; Spring Boot; Java; Multithreading; AWS RDS; JUnit; Maven; Yaml
+I submit to you all of the code that I had intended on using.
+
 The AWS RDS database should be running during your code review.
 
 Regarding our interview, I added a configuration file for implementing Spring beans as a dependency injection tool.  There are not any beans
